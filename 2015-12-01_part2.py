@@ -9,6 +9,6 @@ with open("2015-12-01_input.txt") as input:
                 floor += 1
             if instruction == ")":
                 floor -= 1
-                if (floor == -1):
+                if floor == -1:
                     print(f"-1 at instruction {instruction_count}")
                     break
